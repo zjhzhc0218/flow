@@ -18,9 +18,6 @@ public class DemoTest {
     public static Instance getInstance() {
 
         if (_instance == null) {
-            synchronized () {
-
-            }
         }
         return _instance;
         }
